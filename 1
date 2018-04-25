@@ -1,0 +1,8 @@
+[supervisord]
+nodaemon=true
+[program:userdetails]
+autorestart = false
+command=python userdetails.py
+[program:api]
+command=python api.py -DFOREGROUND
+
