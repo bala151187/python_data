@@ -1,3 +1,11 @@
+# prerequisites
+docker-compose
+
+# How to run
+docker-compose build   
+docker-compose up
+
+
 # Data Service
 
 This service provides the ability to put and get `accounts` to the MongoDB database. It requires authentication
